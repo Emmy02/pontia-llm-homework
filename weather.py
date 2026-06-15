@@ -13,8 +13,8 @@ class Weather:
     self.base_url = "https://api.weatherapi.com/v1/forecast.json"
     self.api_key = os.getenv("WEATHER_API_KEY")
 
-  def get_weather(self, q= 'Tenerife', days_from_now=1):
-    """Retorna el clima actual de Tenerife especifica. Puede recibir otro parametro 'q' para buscar otra ciudad. Por defecto tiene el valor de 'Tenerife'"""
+  def get_weather(self, q= 'Tenerife', days_from_now=3):
+    """Retorna el clima actual de Tenerife especifica. Puede recibir otro parametro 'q' para buscar otra ciudad. Por defecto tiene el valor de 'Tenerife' y 3 días de pronostico."""
     
     if not self.api_key:
       return {"error": "WEATHER_API_KEY no está configurada. Revisa tu archivo .env"}
@@ -35,7 +35,15 @@ class Weather:
       mensaje = data.get("error", {}).get("message", "Error desconocido")
       return {"error": f"Error de la API ({response.status_code}): {mensaje}"}
 
-    return data
+
+    forecast_days = [{
+      'date': day['date'],
+      'max_temp': day['day']['maxtemp_c'],
+      'min_temp': day['day']['mintemp_c'],
+      'condition': day['day']['condition']['text']
+    } for day in data['forecast']['forecastday']]
+
+    return forecast_days
 
   def get_weather_tool_schema(self):
     """Retorna el schema de la funcion get_weather que se utiliza para obtener el clima actual de una ciudad. El schema se utiliza para que el modelo de lenguaje pueda entender la funcion y utilizarla correctamente."""
@@ -43,7 +51,7 @@ class Weather:
     return {
       "type": "function",
       "name": "get_weather",
-      "description": "Retorna el clima actual y de los proximos días de Tenerife. Por defecto tiene el valor de 'Tenerife'. Puede recibir otro parametro 'q' para buscar otra ciudad.",
+      "description": "Retorna el clima actual y de los proximos 3 días de Tenerife. Por defecto tiene el valor de 'Tenerife' y 3 días de pronostico. Puede recibir otro parametro 'q' para buscar otra ciudad.",
       "parameters": {
           "type": "object",
           "properties": {
