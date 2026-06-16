@@ -1,0 +1,45 @@
+2026-06-16 08:44:27,210 | INFO | tool_call name=search_tenerife_guide args={'query': 'zona norte de Tenerife lugares de interés qué visitar pueblos miradores playas rutas actividades', 'k': 4} ok=True elapsed=0.186s
+2026-06-16 08:44:50,047 | INFO | tool_call name=get_weather args={'q': 'Tenerife', 'days_from_now': 3} ok=True elapsed=0.099s
+2026-06-16 08:45:01,430 | INFO | tool_call name=get_weather args={'q': 'Tenerife', 'days_from_now': 2} ok=True elapsed=0.115s
+2026-06-16 08:45:01,594 | INFO | tool_call name=search_tenerife_guide args={'query': 'playa de Las Teresitas y qué ver por la zona, miradores, pueblos o actividades cercanas', 'k': 4} ok=True elapsed=0.163s
+2026-06-16 08:45:45,626 | INFO | tool_call name=search_tenerife_guide args={'query': 'lugares de interés en la zona norte de Tenerife', 'k': 4} ok=True elapsed=0.152s
+2026-06-16 08:45:56,600 | INFO | tool_call name=search_tenerife_guide args={'query': 'lugares de interés en la zona sur de Tenerife dos opciones', 'k': 4} ok=True elapsed=0.192s
+2026-06-16 08:45:59,375 | INFO | Historial recortado (> 3000 tokens), eliminado: {'role': 'user', 'content': '¿Qué lugares de interés hay en la zona norte de Tenerife?'}
+2026-06-16 08:45:59,379 | INFO | Historial recortado (> 3000 tokens), eliminado: ResponseFunctionToolCall(arguments='{"query":"lugares de interés en la zona norte de Tenerife", "k":4}', call_id='call_n
+2026-06-16 08:45:59,381 | INFO | Historial recortado (> 3000 tokens), eliminado: {'type': 'function_call_output', 'call_id': 'call_nBVr78cC4qJ1eLDnf8oteUEV', 'output': '{"ok": true, "data": {"query": "
+2026-06-16 08:46:03,576 | INFO | tool_call name=get_weather args={'q': 'Costa Adeje, Tenerife', 'days_from_now': 1} ok=True elapsed=0.106s
+2026-06-16 08:46:03,691 | INFO | tool_call name=get_weather args={'q': 'Playa de Torviscas, Tenerife', 'days_from_now': 1} ok=True elapsed=0.111s
+2026-06-16 08:46:03,797 | INFO | tool_call name=get_weather args={'q': 'Costa Adeje, Tenerife', 'days_from_now': 2} ok=True elapsed=0.104s
+2026-06-16 08:46:03,913 | INFO | tool_call name=get_weather args={'q': 'Playa de Torviscas, Tenerife', 'days_from_now': 2} ok=True elapsed=0.113s
+2026-06-16 09:39:03,383 | INFO | tool_call name=search_tenerife_guide args={'query': 'zona norte de Tenerife lugares de interés qué visitar pueblos miradores playas rutas actividades', 'k': 4} ok=True elapsed=0.310s
+2026-06-16 09:49:41,783 | INFO | tool_call name=search_tenerife_guide args={'query': 'lugares de interés en la zona norte de Tenerife', 'k': 4} ok=True elapsed=0.718s
+2026-06-16 09:49:49,871 | INFO | tool_call name=get_weather args={'q': 'Tenerife', 'days_from_now': 3} ok=True elapsed=0.102s
+2026-06-16 09:50:05,667 | INFO | tool_call name=get_weather args={'q': 'Tenerife', 'days_from_now': 2} ok=True elapsed=0.096s
+2026-06-16 09:50:05,829 | INFO | tool_call name=search_tenerife_guide args={'query': 'playa de Las Teresitas y qué ver por la zona', 'k': 4} ok=True elapsed=0.162s
+2026-06-16 09:50:58,066 | INFO | tool_call name=search_tenerife_guide args={'query': 'lugares de interés en la zona norte de Tenerife', 'k': 4} ok=True elapsed=0.194s
+2026-06-16 09:51:07,778 | INFO | tool_call name=search_tenerife_guide args={'query': 'zona sur de Tenerife lugares de interés dos opciones', 'k': 4} ok=True elapsed=0.185s
+2026-06-16 09:51:09,317 | INFO | Historial recortado (> 3000 tokens), eliminado: {'role': 'user', 'content': '¿Qué lugares de interés hay en la zona norte de Tenerife?'}
+2026-06-16 09:51:09,321 | INFO | Historial recortado (> 3000 tokens), eliminado: ResponseFunctionToolCall(arguments='{"query":"lugares de interés en la zona norte de Tenerife", "k":4}', call_id='call_W
+2026-06-16 09:51:13,658 | INFO | Historial recortado (> 3000 tokens), eliminado: {'type': 'function_call_output', 'call_id': 'call_WkeJUlUm7M3elED4ibeLvmDk', 'output': '{"ok": true, "data": {"query": "
+2026-06-16 09:51:14,959 | INFO | tool_call name=get_weather args={'q': 'Costa Adeje', 'days_from_now': 1} ok=True elapsed=0.094s
+2026-06-16 09:51:15,046 | INFO | tool_call name=get_weather args={'q': 'Costa Adeje', 'days_from_now': 2} ok=True elapsed=0.085s
+2026-06-16 09:51:23,395 | INFO | tool_call name=search_tenerife_guide args={'query': 'zona sur de Tenerife lugares para visitar resumen playas miradores pueblos actividades', 'k': 4} ok=True elapsed=0.184s
+2026-06-16 09:56:43,159 | INFO | tool_call name=search_tenerife_guide args={'query': 'zona norte de Tenerife lugares de interés qué visitar miradores pueblos playas rutas actividades', 'k': 4} ok=True elapsed=0.168s
+2026-06-16 09:56:46,829 | INFO | tool_call name=get_weather args={'q': 'Tenerife', 'days_from_now': 3} ok=True elapsed=0.090s
+2026-06-16 09:56:49,844 | INFO | tool_call name=get_weather args={'q': 'Tenerife', 'days_from_now': 2} ok=True elapsed=0.123s
+2026-06-16 09:56:50,030 | INFO | tool_call name=search_tenerife_guide args={'query': 'playa de Las Teresitas y qué ver por la zona cerca de Santa Cruz de Tenerife', 'k': 4} ok=True elapsed=0.184s
+2026-06-16 09:56:57,020 | INFO | tool_call name=search_tenerife_guide args={'query': 'zona norte de Tenerife lugares de interés qué ver pueblos miradores playas rutas actividades', 'k': 4} ok=True elapsed=0.162s
+2026-06-16 09:57:01,322 | INFO | tool_call name=search_tenerife_guide args={'query': 'zona sur de Tenerife lugares de interés dos opciones playas actividades pueblos miradores', 'k': 4} ok=True elapsed=0.163s
+2026-06-16 09:57:03,561 | INFO | Historial recortado (> 3000 tokens), eliminado: {'role': 'user', 'content': '¿Qué lugares de interés hay en la zona norte de Tenerife?'}
+2026-06-16 09:57:03,563 | INFO | Historial recortado (> 3000 tokens), eliminado: ResponseFunctionToolCall(arguments='{"query":"zona norte de Tenerife lugares de interés qué ver pueblos miradores playas
+2026-06-16 10:10:19,449 | INFO | Historial recortado (> 3000 tokens), eliminado: {'type': 'function_call_output', 'call_id': 'call_fH0vWpscRxSMEuekq7KPtbmy', 'output': '{"ok": true, "data": {"query": "
+2026-06-16 10:10:22,355 | INFO | tool_call name=get_weather args={'q': 'Costa Adeje, Tenerife', 'days_from_now': 1} ok=True elapsed=0.148s
+2026-06-16 10:10:22,449 | INFO | tool_call name=get_weather args={'q': 'Costa Adeje, Tenerife', 'days_from_now': 2} ok=True elapsed=0.090s
+2026-06-16 10:10:22,572 | INFO | tool_call name=get_weather args={'q': 'El Médano, Tenerife', 'days_from_now': 1} ok=True elapsed=0.121s
+2026-06-16 10:10:22,661 | INFO | tool_call name=get_weather args={'q': 'El Médano, Tenerife', 'days_from_now': 2} ok=True elapsed=0.087s
+2026-06-16 10:32:16,888 | INFO | tool_call name=search_tenerife_guide args={'query': 'zona norte de Tenerife lugares de interés qué visitar pueblos miradores playas rutas actividades', 'k': 4} ok=True elapsed=0.916s
+2026-06-16 10:32:32,161 | INFO | tool_call name=get_weather args={'q': 'Tenerife', 'days_from_now': 3} ok=True elapsed=0.116s
+2026-06-16 10:32:42,488 | INFO | tool_call name=get_weather args={'q': 'Tenerife', 'days_from_now': 2} ok=True elapsed=0.103s
+2026-06-16 10:32:42,664 | INFO | tool_call name=search_tenerife_guide args={'query': 'playa de Las Teresitas y qué ver por la zona cerca de Santa Cruz de Tenerife', 'k': 4} ok=True elapsed=0.175s
+2026-06-16 10:35:06,262 | INFO | tool_call name=search_tenerife_guide args={'query': 'zona norte de Tenerife lugares de interés qué ver pueblos miradores playas rutas actividades', 'k': 4} ok=True elapsed=1.434s
+2026-06-16 10:35:21,709 | INFO | tool_call name=get_weather args={'q': 'Tenerife', 'days_from_now': 2} ok=True elapsed=0.089s

@@ -1,2 +1,12 @@
 requests==2.34.2
 python-dotenv==1.2.2
+openai
+pypdf
+jsonschema
+google-genai
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-text-splitters
+langgraph
